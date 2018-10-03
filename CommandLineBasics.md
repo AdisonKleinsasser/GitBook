@@ -1,4 +1,4 @@
-# Home Directory & Intro to the Command Line
+# Intro to the Command Line
 
 | _Command_ | _Description_ |
 | :--- | :--- |
