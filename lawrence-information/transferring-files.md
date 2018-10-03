@@ -4,7 +4,7 @@ Transferring files onto and off of your Lawrence home directory can be done usin
 
 ### SCP
 
-The standard command line method for file movement between hosts is the `scp`command \(secure copy\). This is an ssh based protocol designed for moving files between local and remote hosts. To get files from your local computer, you will need to open a local terminal session on your computer \(Do not connect to the HPC!, in this example, local@xyz is my local PC\).
+The standard command line method for file movement between hosts is the `scp`command \(secure copy\). This is an ssh based protocol designed for moving files between local and remote hosts. To get files from your local computer, you will need to open a local terminal \(another command line\) session on your computer \(Do not connect to the HPC!, in this example, local@xyz is my local PC\).
 
 ```
 [local@xyz ~]$
@@ -47,7 +47,7 @@ Cyberduck can also be used for moving files by sftp. You can find the Cyberduck 
 
 ![](/assets/cyberduck_1.png)
 
-You will need to open a connection by clicking on the 'Open Connection' icon. This will return a window to fill in with the host information. Fill this window in as shown below \(note user.name will be your persnaol Lawrence username\). Be sure to choose SFTP and port 22:
+You will need to open a connection by clicking on the 'Open Connection' icon. This will return a window to fill in with the host information. Fill this window in as shown below \(note user.name will be your personal Lawrence username\). Be sure to choose SFTP and port 22:
 
 ## ![](/assets/cyberduck_2)
 
