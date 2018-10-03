@@ -35,14 +35,14 @@ First, we will use the pwd \(print working directory\) command to show our curre
 /home/Joseph.Madison
 ```
 
-We can also list the files in out current working directory.
+We can also list the files in our current working directory.
 
 ```
 [Joseph.Madison@login-0-0 ~]$ ls
 demo_files  dissertation_research  install_files
 ```
 
-To move to the demo\_files sub-directory, we can use the cd \(change directory\) command. We can follow this up with the pwd command to verify we have moved to the demo\_files sub-directory.
+To move into the demo\_files sub-directory, we can use the cd \(change directory\) command. We can follow this up with the pwd command to verify we have moved into the demo\_files sub-directory.
 
 ```
 [Joseph.Madison@login-0-0 ~]$ cd demo_files
@@ -81,7 +81,7 @@ Next, we will create a file using a text editor. Here we will use nano \(there a
 [Joseph.Madison@login-0-0 exp1]$ nano file1
 ```
 
-Once you press enter you will be moved into the text editor. A cursor at the top of the page is where your text will be entered as you type. This is a powerful tool with many applications but here I will type 'Hello World!'
+Once you press enter, you will be moved into the text editor. A cursor at the top of the page is where your text will be entered as you type. This is a powerful tool with many applications but here I will type 'Hello World!'
 
 ```
 GNU nano 1.3.12             File: file1                       Modified  
