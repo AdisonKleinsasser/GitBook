@@ -51,7 +51,7 @@ You will need to open a connection by clicking on the 'Open Connection' icon. Th
 
 ## ![](/assets/cyberduck_2)
 
-After succesfully connecting, you can upload files into your Lawrence folders on your home directory by dragging and dropping from your desktop, or by clicking the upload icon at the top of the Cyberduck display.
+After successfully connecting, you can upload files into your Lawrence folders on your home directory by dragging and dropping from your desktop, or by clicking the upload icon at the top of the Cyberduck display.
 
 ![](/assets/cyberduck_3.png)
 
