@@ -15,6 +15,7 @@
 | rm file1 | removes file1 from current directory |
 | whoami | returns username |
 | echo hello | prints hello on console |
+| wget "http://wetsiteName.com/file_to_get" | download files from internet | 
 
 Notes for Command lines:
 1. 	While a password is being typed in, often characters won't appear \(including *******\).  
