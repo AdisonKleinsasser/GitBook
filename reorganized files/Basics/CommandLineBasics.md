@@ -135,6 +135,20 @@ file1
 
 The file is now in both locations.
 
+When moving or copying a file /(as well as in other applications/), paths can be shortened using a period to refer to the current directory, and two periods to refer to the directory above the current one. For the previous example, exp1 is the current directory:
+
+```
+[Joseph.Madison@login-0-0 exp1]$ cp file1 ../exp2
+[Joseph.Madison@login-0-0 exp1]$ ls
+file1
+[Joseph.Madison@login-0-0 exp1]$ cd ..
+[Joseph.Madison@login-0-0 ~]$ cd exp2
+[Joseph.Madison@login-0-0 exp2]$ ls
+file1
+```
+../exp2 -> exp2 is in the directory that the current directory is also in.
+
+
 Another command that is very useful and very dangerous is the remove command rm.
 
 > The HPC does not backup files so if you remove a file or directory it is gone \(always have backup files elsewhere such as on your local PC!\) Here I will remove file1 from exp2. You can ls and nothing should be there \(you will be sent back to the command prompt.
@@ -145,7 +159,7 @@ Another command that is very useful and very dangerous is the remove command rm.
 [Joseph.Madison@login-0-0 exp2]$ 
 ```
 
-Directories can also be used using the rm -r command. This command will also delete any files contained in the directory. You first have to move the parent directory. After deleting you can verify it is no longer there using ls.
+Directories can also be used using the rm -r command. This command will also delete any files contained in the directory. First you must move the parent directory. After deleting that you can verify it is no longer there using ls.
 
 ```
 [Joseph.Madison@login-0-0 exp2]$ cd ..
