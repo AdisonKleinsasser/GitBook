@@ -2,7 +2,7 @@
 
 We often need to move files to and from the HPC. This section will cover the movement of files around computers both remote and local.
 
-Since we are moving more toward open science and data sharing, you might find a data set or scripts posted online. The first thing we will be doing is getting a file from the web. This will be accomplished with the wget command in the command line. wget derives it’s name from world wide web and get, which makes sense considering what we are using it for.
+Since we are moving more toward open science and data sharing, you might find a data set or scripts posted online. The first thing we will be doing is getting a file from the web. This will be accomplished with the wget command in the command line. wget derives its name from world wide web and get, which makes sense considering what we are using it for.
 
 We will need the web addresses for the data files that we are going to use. Two data sets are provided in two different formats so you can practice extracting compressed files.
 
