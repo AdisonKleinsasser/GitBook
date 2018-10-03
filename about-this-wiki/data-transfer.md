@@ -16,7 +16,9 @@ If you have not done so already, open a terminal and connect to the HPC and navi
 
 Once there type in the command line `wget` and paste the address we copied from the web: usdrcg.github.io/workshops/crimes.zip
 
-> You may have trouble pasting, right click and select paste in MobaXterm, DO NOT USE ctrl+V After hitting enter you should see the file download. Verify it is there using `ls`.
+> You may have trouble pasting, right click and select paste in MobaXterm, DO NOT USE ctrl+V 
+> In the Linux command line, right click to paste
+> After hitting enter you should see the file download. Verify it is there using `ls`.
 
       [Joseph.Madison@login-0-0 demo_files]$ wget  http://usdrcg.github.io/workshops/crimes.zip 
     --16:03:05--  http://usdrcg.github.io/workshops/crimes.zip
@@ -97,17 +99,17 @@ From that portion of the MobaXterm window, you can drag and drop files between e
 
 Another option that you will need to use if you are going to be transferring large volumes of data between locations is a piece of software called Globus. This is required for moving files around 1 TB or larger.
 
-> If you look here at their homepage, Globus.org, you will see they have transferred around 350 Petabytes of data \(as of Jan. 11, 2018\). Just for reference, the all of the information in the library of congress converted to text files is one fourth of a petabyte. Globus will not be covered here today, but if you are interested or have questions feel free to contact us.
+> If you look here at their homepage, Globus.org, you will see they have transferred around 469 Petabytes of data \(as of Oct. 3, 2018\). Just for reference, all of the information in the Library of Congress converted to text files is one fourth of a petabyte. Globus will not be covered here today, but if you are interested or have questions feel free to contact us.
 
 
 
 ## Compressed Files
 
-The last thing to mention in this section is the decompression of files. As you might have noticed already, the files we got using `wget` are in the form of .zip and .tar.gz. \(tar.gz is similar to .zip\).
+The last thing to mention in this section is the decompression of files. As you might have noticed already, the files we downloaded using `wget` are in the form of .zip and .tar.gz. \(tar.gz is similar to .zip\).
 
-Compressed files are a great way to send large files via email, and when you have a directory with directories in it that you want to share as one file. We will be doing this on the HPC.
+Compressed files are a great way to send large files or a directory with directories in it via email. We will be doing this on the HPC.
 
-For .zip files simply move them to the directory where you wish to have the files, make sure you are in that directory, and use the command unzip. This will extract the files from the .zip.
+To unzip .zip files, simply move it to the directory where you wish to have the files, make sure you are in that directory, and use the command unzip. This will extract the files from the .zip.
 
 ```
   [Joseph.Madison@login-0-0 demo_files]$ ls
