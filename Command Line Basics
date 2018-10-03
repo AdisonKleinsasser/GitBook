@@ -161,5 +161,3 @@ The last subject of discussion in this doc will be the echo command. The echo co
 [Joseph.Madison@login-0-0 ~]$ echo HPC is fun!
 HPC is fun!
 ```
-
----
