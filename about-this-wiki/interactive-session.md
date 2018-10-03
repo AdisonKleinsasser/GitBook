@@ -112,14 +112,15 @@ You can also perform basic math functions:
 4
 ```
 
-You can do lots of things from this Python command prompt, but I want to show you how to make your own Python program. Let’s write a program that counts to 100. First, let’s exit Python so we can use the shell text editor.
+You can do lots of things from this Python command prompt, but I want to show you how to make your own Python program. Let’s write a program that counts to 100. First, let’s exit Python /(ctrl + d/)so we can use the shell text editor.
 
 ```
 [Joseph.Madison@compute-0-5 ~]$[ctrl]+d 
 [Joseph.Madison@compute-0-5 ~]$ nano counting.py
 for n in range(0,100):
 		print n
-[ctrl]O, [enter], [ctrl]X
+
+press [ctrl]O, [enter], [ctrl]X, y
 ```
 
 > Note: spaces and indentations are important.
