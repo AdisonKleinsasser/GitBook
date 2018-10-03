@@ -4,8 +4,8 @@
 | :--- | :--- |
 | pwd | print working directory (current location) |
 | ls | list directories & files in current directory |
-| cd .. | back up one directory |
-| cd | back up to the home directory |
+| cd .. | backs up one directory |
+| cd | backs up to the home directory |
 | cd myDirectory/ | open myDirectory | 
 | mkdir exp1 | makes a directory-exp1 |
 | nano file1 | opens file1 in nano editor |
@@ -15,6 +15,15 @@
 | rm file1 | removes file1 from current directory |
 | whoami | returns username |
 | echo hello | prints hello on console |
+
+Notes for Command lines:
+1. 	While a password is being typed in, often characters won't appear \(including *******\).  
+        Don't worry if you are typing in your password and nothing seems to be happening.
+2.  A period (.) refers to the current directory. 
+        eg. ./subD refers to a directory called subD that is in the current directory
+3.  Two consecutive periods refer to the directory one above the current one 
+        eg. cd .. moves to the previous directory, ../subE refers to a directory that is in the same directory as the current one
+
 
 ### Command Line Basics \(with examples\)
 
