@@ -9,7 +9,7 @@ Next, you will need to login via an ssh session through the login node. You must
 [user@localhost ~]$ ssh User.Name@lawrence.usd.edu
 ```
 
-You will then be prompted for a password. Enter you regular USD credentials. \(Note: the password you type will not show up on the screen.\) If you have more than five failed attempts at logging in you will be locked out for one hour or until access is reinstated by the system administrator.
+You will then be prompted for a password. Enter your regular USD credentials. \(Note: the password you type will not show up on the screen.\) If you have more than five failed attempts at logging in you will be locked out for one hour or until access is reinstated by the system administrator.
 
 ```
 User.Name@hpc.usd.edu's password:
