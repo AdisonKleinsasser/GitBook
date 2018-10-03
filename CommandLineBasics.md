@@ -14,6 +14,7 @@
 | mv file1 ./exp1 ./exp2 | moves file1 from exp1 to exp2 \(exp1 & exp2 are both in the current directory (denoted by period (.)\) |
 | rm file1 | removes file1 from current directory |
 | whoami | returns username |
+| echo hello | prints hello on console |
 
 ### Command Line Basics \(with examples\)
 
