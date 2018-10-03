@@ -1,6 +1,6 @@
 # Lawrence SSH Login for Windows
 
-Utilization of the Lawrence cluster by WIndows users requires the use of the MobaXterm terminal. MobaXterm can be freely downloaded here \(use the Home Installer Edition\):
+Utilization of the Lawrence cluster by Windows users requires the use of the MobaXterm terminal. MobaXterm can be freely downloaded here \(use the Home Installer Edition\):
 
 [https://mobaxterm.mobatek.net/download.html](https://mobaxterm.mobatek.net/download.html)
 
